@@ -8,7 +8,7 @@ head {
     background-color: seagreen;
     font-size: small;
 
-}
+
 title {
     font-size: medium;
     background-color:rgb(214, 22, 240);
@@ -19,12 +19,18 @@ title {
 
 body {
          font-family: 'Lato';
-         font-size:  16px;
+         font-size:  26px;
          font-weight:  300;
      }
+ div {
+        display: flex;
+     float: right;
+    }
+    
 
-.small-12 { width: 100%;}
-
+.container {
+    
+}
 
 /* grid rules */
 
@@ -41,7 +47,10 @@ body {
 }
 
 
-
+div {
+    display: flex;
+    float: right;
+}
 
 
 
