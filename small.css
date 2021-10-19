@@ -13,10 +13,9 @@ title {
     font-size: medium;
     background-color:rgb(214, 22, 240);
     
+
+    
 }
-
-
-
 body {
          font-family: 'Lato';
          font-size:  26px;
@@ -27,34 +26,24 @@ body {
      float: right;
     }
     
-
-.container {
+    .maincontain {
+        display: flex;
+        float: left;
+       
+    #services {
+        font-size: medium;
+        font-style: italic;
+        color: green;
+        display: inline-flexbox;
+    }
     
-}
+   #rightside {
+       display: flex;
+       float: right;
+       
+   }
 
 /* grid rules */
-
-.row { clear: both;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;             
-    
-}
-
-.column { float: left;
-      flex-basis: 33%;
-      background-color: purple;
-}
-
-
-div {
-    display: flex;
-    float: right;
-}
-
-
-
-
 
 
 
@@ -67,9 +56,4 @@ footer h2 {
     font-style: italic;
     text-transform: uppercase;
     margin: auto;
-}
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
