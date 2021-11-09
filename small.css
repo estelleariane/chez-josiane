@@ -16,16 +16,12 @@ title {
     background-color:rgb(214, 22, 240);
        
 }
-body {
-         height: 100%;
-         font-family: 'Lato';
-         font-weight:  300;
-         display: flex; flex-direction: column;
-         
-    background-color:#5f4b63;
-     
-    width: 100%;
-     }
+
+ body { display: grid;
+   grid-template-rows: auto 1fr auto; 
+   background-color:#5f4b63;
+   margin: auto;
+  }
  
  .maincontain {
     width: 100%;
@@ -47,8 +43,10 @@ body {
      float: left;
      height: 70%;
      width: 30%;
+     margin-right: 10px;
    }
     .rightside {
+      float: right;
         margin-left:10%;
         padding:1px 16px;
         height:100%;
@@ -64,17 +62,13 @@ body {
     margin-right: auto;
     width: 50%;
   }
-  
-
-#services {
+  #services {
     margin-left:10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: medium;
    text-align: center;
 }
-
-
 
 .topnav {
   overflow: hidden;
@@ -158,13 +152,12 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
-
-  .bottom {
+.bottom {
     font-size: small;
-   left: 0;
-   bottom: 0;
    width: 100%;
-   background-color: #04AA6D;
-   color: white;
+   color: rgb(14, 14, 19);
    text-align: center;
+   height: 10px;
+   bottom: 0;
+   left: 0;
 }
