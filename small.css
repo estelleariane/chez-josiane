@@ -28,7 +28,16 @@ title {
     flex-grow: 1;
  }
 
+.display {
+  width: 100%;
+  flex-wrap: wrap;
 
+}
+
+img {
+  padding: 1px;
+  margin: 2px;
+}
 
  .column {
     float: left;    
@@ -41,7 +50,7 @@ title {
    }
    .leftside {
      float: left;
-     height: 70%;
+     height: 100%;
      width: 30%;
      margin-right: 10px;
    }
@@ -50,6 +59,7 @@ title {
         margin-left:10%;
         padding:1px 16px;
         height:100%;
+        width: 70%;
    }
    .rightmenu {
      float: right;
@@ -104,6 +114,9 @@ title {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  .rightside {
+    flex-wrap: wrap;
   }
 }
 
