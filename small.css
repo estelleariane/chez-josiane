@@ -22,6 +22,10 @@ title {
    background-color:#5f4b63;
    margin: auto;
   }
+
+  p{    
+  font-size: 20px;
+  }
  
  .maincontain {
     width: 100%;
@@ -30,7 +34,6 @@ title {
 
 .display {
   width: 100%;
-  flex-wrap: wrap;
 
 }
 
@@ -59,8 +62,17 @@ img {
         margin-left:10%;
         padding:1px 16px;
         height:100%;
-        width: 70%;
+        width: 100%;
    }
+   
+   .leftsideAbout {
+    float: left;
+    width: 30%;
+  }
+   .rightsideAbout {
+     float: right;
+       width: 65%;
+  }
    .rightmenu {
      float: right;
      margin: 10px;
