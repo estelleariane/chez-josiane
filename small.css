@@ -26,7 +26,9 @@ title {
   p{    
   font-size: 20px;
   }
- 
+ h2 {
+   text-align: center;
+ }
  .maincontain {
     width: 100%;
     flex-grow: 1;
@@ -84,13 +86,6 @@ img {
     margin-right: auto;
     width: 50%;
   }
-  #services {
-    margin-left:10%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: medium;
-   text-align: center;
-}
 
 .topnav {
   overflow: hidden;
