@@ -130,7 +130,17 @@ img {
   .rightside {
     flex-wrap: wrap;
   }
-}
+  .leftsideAbout {
+    display: flex;
+  flex-wrap: wrap;
+    width: 100%;
+  }
+   .rightsideAbout {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+     
+  }
 
 @media screen and (max-width: 500px) {
   .topnav.responsive {position: relative;}
